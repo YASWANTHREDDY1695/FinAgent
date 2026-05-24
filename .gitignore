@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Sensitive Credentials & Local Configs
+.env
+serviceAccountKey.json
+*.pem
+
+# Python Caches & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Machine Learning Models & Scalers (large binaries)
+models/
+*.keras
+*.pkl
+
+# IDE / OS Specific Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
